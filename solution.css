@@ -1,0 +1,32 @@
+/* adding some nice touches just for fun */
+
+html {
+    background-color: grey;
+}
+
+body {
+    width: 800px;
+    background-color: lightblue;
+    padding: 25px;
+    margin: 25px;
+}
+
+/* fixme1 solution without overriding the classes from base.css */
+div img {
+    display: block;
+}
+
+/* fixme2 solution without overriding the classes from base.css */
+div div {
+    display: inline-block;
+}
+
+/* fixme3 solution without overriding the classes from base.css */
+
+/* ul {
+    display: inline-block;
+} */
+
+ul li {
+    display: inline-block;
+}
